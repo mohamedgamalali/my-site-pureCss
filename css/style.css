@@ -1,0 +1,142 @@
+body
+{
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+    color:#1598ff;
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 17px;
+    font-style: oblique;
+    font-family:sans-serif;
+    color: #40514E;
+}
+
+h3
+{
+  margin: 0;
+  font-size: 20px;
+  color: #6897bb;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 6%;
+    border-color:#dddddd;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+li
+{
+  color : blue;
+}
+.navbar
+{
+  margin: 20px 50px;
+}
+.code
+{
+    width: 30%;
+    float: left;
+    margin-right:  20px;
+}
+.code2
+{
+  width: 30%;
+  float: right;
+  margin-left:  20px;
+}
+
+.car
+{
+  width: 15%;
+  border-radius: 50%;
+}
+.mmm
+{
+  top: 100px;
+  position: relative;
+  margin-bottom: 5px;
+}
+.mmm2
+{
+  top: 100px;
+  position: relative;
+}
+.first-container
+{
+  position: relative;
+  background-color: #eaf6f6;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.skill-row
+{
+  width: 50%;
+  /*display: inline-block;*/ /*we can cener it by display inline or margin outo*/
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.mountain
+{
+  width: 70%;
+}
+.bottom-container
+{
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background: #66bfbf;
+  border-radius: 2em 1em 4em / 0.5em 3em;
+
+}
+.footer-link
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #11999e;
+  text-decoration: none;
+}
+.myButton {
+	background-color:#11cdd4;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#2cd4ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
